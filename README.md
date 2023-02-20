@@ -1,27 +1,24 @@
-# FindGifsApp
+# Find Gifs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Find Gifs es una aplicación de búsqueda de GIFs que utiliza la API de Giphy para mostrar resultados de búsqueda.
 
-## Development server
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Requisitos previos
 
-## Code scaffolding
+- Node.js y npm instalados
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular CLI instalado (npm install -g @angular/cli)
 
-## Build
+## Instalación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona el repositorio: git clone `https://github.com/nervygomez/Find-Gifs.git`
+2. Navega al directorio del proyecto: `cd FindGifsApp`
+3. Instala las dependencias: `npm install`
 
-## Running unit tests
+## Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ 1. Ejecuta el servidor de desarrollo: `ng serve`
+ 2. Abre un navegador y visita `http://localhost:4200`
+ 3. Ingresa un término de búsqueda en la barra de búsqueda y presiona Enter o haz clic en el botón de búsqueda
+ 4. Se mostrarán los resultados de la búsqueda en forma de GIFs
